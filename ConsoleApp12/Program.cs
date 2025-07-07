@@ -45,6 +45,7 @@ class Program
             "33" => new PalindromicPairs(),
             "34" => new Sortanarraycontaining0_s_1_sand2_s(),
             "35" => new MajorityElementsNBy3Times(),
+            "36" => new ClimbingStairs(),
             _ => throw new Exception("Invalid Input")
         };
 
