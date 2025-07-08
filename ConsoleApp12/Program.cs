@@ -1,4 +1,5 @@
 ﻿using ConsoleApp12;
+using System.Data.SqlTypes;
 
 class Program
 {
@@ -46,6 +47,7 @@ class Program
             "34" => new Sortanarraycontaining0_s_1_sand2_s(),
             "35" => new MajorityElementsNBy3Times(),
             "36" => new ClimbingStairs(),
+            "37" => new LongestSubstringWithAlmostKDistinctCharacters(),
             _ => throw new Exception("Invalid Input")
         };
 
